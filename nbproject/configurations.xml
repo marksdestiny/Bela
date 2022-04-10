@@ -1,0 +1,2489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="core">
+        <in>AuxTaskNonRT.cpp</in>
+        <in>AuxTaskRT.cpp</in>
+        <in>AuxiliaryTasks.cpp</in>
+        <in>BelaContextFifo.cpp</in>
+        <in>BelaContextSplitter.cpp</in>
+        <in>DataFifo.cpp</in>
+        <in>DigitalChannelManager.cpp</in>
+        <in>FormatConvert.S</in>
+        <in>GPIOcontrol.cpp</in>
+        <in>Gpio.cpp</in>
+        <in>I2c_Codec.cpp</in>
+        <in>I2c_MultiI2sCodec.cpp</in>
+        <in>I2c_MultiTLVCodec.cpp</in>
+        <in>I2c_MultiTdmCodec.cpp</in>
+        <in>IirFilter.cpp</in>
+        <in>JSON.cpp</in>
+        <in>JSONValue.cpp</in>
+        <in>Mcasp.cpp</in>
+        <in>MiscUtilities.cpp</in>
+        <in>Mmap.cpp</in>
+        <in>OscillatorBank_routines.S</in>
+        <in>PRU.cpp</in>
+        <in>PruBinary.cpp</in>
+        <in>PruManager.cpp</in>
+        <in>RTAudio.cpp</in>
+        <in>RTAudioCommandLine.cpp</in>
+        <in>Spi_Codec.cpp</in>
+        <in>WSServer.cpp</in>
+        <in>board_detect.cpp</in>
+        <in>default_libpd_render.cpp</in>
+        <in>default_main.cpp</in>
+        <in>math_runfast.c</in>
+      </df>
+      <df name="examples">
+        <df name="Analog">
+          <df name="analog-input">
+            <in>render.cpp</in>
+          </df>
+          <df name="analog-output">
+            <in>render.cpp</in>
+          </df>
+          <df name="scope-analog">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Audio">
+          <df name="convolver">
+            <in>render.cpp</in>
+          </df>
+          <df name="delay">
+            <in>render.cpp</in>
+          </df>
+          <df name="envelope-generator">
+            <in>render.cpp</in>
+          </df>
+          <df name="FFT-phase-vocoder">
+            <in>main.cpp</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="filterbanks">
+            <in>render.cpp</in>
+          </df>
+          <df name="record-audio">
+            <in>render.cpp</in>
+          </df>
+          <df name="sample-loader">
+            <in>render.cpp</in>
+          </df>
+          <df name="sample-piezo-trigger">
+            <in>render.cpp</in>
+          </df>
+          <df name="sample-streamer">
+            <in>render.cpp</in>
+          </df>
+          <df name="sample-streamer-multi">
+            <in>SampleStream.cpp</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="telephone-filter">
+            <in>render.cpp</in>
+          </df>
+          <df name="tremolo">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Capelets">
+          <df name="audio-expander">
+            <in>render.cpp</in>
+          </df>
+          <df name="multiplexer-display">
+            <in>render.cpp</in>
+          </df>
+          <df name="multiplexer-spectrum">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Communication">
+          <df name="logging-sensors">
+            <in>render.cpp</in>
+          </df>
+          <df name="MIDI">
+            <in>render.cpp</in>
+          </df>
+          <df name="OSC">
+            <in>render.cpp</in>
+          </df>
+          <df name="OSC-Pipe">
+            <in>render.cpp</in>
+          </df>
+          <df name="Serial">
+            <in>render.cpp</in>
+          </df>
+          <df name="Spi">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Csound">
+          <df name="C++-libcsound-Control">
+            <in>render.cpp</in>
+          </df>
+          <df name="C++-libcsound-gain">
+            <in>render.cpp</in>
+          </df>
+          <df name="C++-libcsound-Loopback">
+            <in>render.cpp</in>
+          </df>
+          <df name="C++-libcsound-Sine">
+            <in>render.cpp</in>
+          </df>
+          <df name="C++-libcsound-Trigger">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Digital">
+          <df name="bicolor-LEDs">
+            <in>render.cpp</in>
+          </df>
+          <df name="digital-input">
+            <in>render.cpp</in>
+          </df>
+          <df name="digital-output">
+            <in>render.cpp</in>
+          </df>
+          <df name="level-meter">
+            <in>render.cpp</in>
+          </df>
+          <df name="synchronous-gpio">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Extras">
+          <df name="7-segment-display">
+            <in>render.cpp</in>
+          </df>
+          <df name="audio-capelet-test">
+            <in>render.cpp</in>
+          </df>
+          <df name="bucket-brigade-chorus">
+            <in>render.cpp</in>
+          </df>
+          <df name="cape-test">
+            <in>main.cpp</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="gpio-analog-loopback-test">
+            <in>render.cpp</in>
+          </df>
+          <df name="measure-noisefloor">
+            <in>main.cpp</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="oscillator-bank">
+            <in>render.cpp</in>
+          </df>
+          <df name="pru-pwm">
+            <in>render.cpp</in>
+          </df>
+          <df name="salt-factory-taste">
+            <in>render.cpp</in>
+          </df>
+          <df name="second-pru">
+            <in>render.cpp</in>
+          </df>
+          <df name="stepper">
+            <in>render.cpp</in>
+          </df>
+          <df name="tank-wars">
+            <in>game.cpp</in>
+            <in>main.cpp</in>
+            <in>render.cpp</in>
+            <in>vector_graphics.cpp</in>
+          </df>
+          <df name="userdata">
+            <in>main.cpp</in>
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Fundamentals">
+          <df name="minimal">
+            <in>render.cpp</in>
+          </df>
+          <df name="passthrough">
+            <in>render.cpp</in>
+          </df>
+          <df name="print">
+            <in>render.cpp</in>
+          </df>
+          <df name="scope">
+            <in>render.cpp</in>
+          </df>
+          <df name="scope-advanced">
+            <in>render.cpp</in>
+          </df>
+          <df name="sinetone">
+            <in>render.cpp</in>
+          </df>
+          <df name="sinetone-optimized">
+            <in>render.cpp</in>
+          </df>
+          <df name="sinetone-optimized-bank">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Gui">
+          <df name="ambient-ellipse">
+            <in>render.cpp</in>
+          </df>
+          <df name="bela-to-gui">
+            <in>render.cpp</in>
+          </df>
+          <df name="clock">
+            <in>render.cpp</in>
+          </df>
+          <df name="empty-project">
+            <in>render.cpp</in>
+          </df>
+          <df name="frequency-response">
+            <in>render.cpp</in>
+          </df>
+          <df name="graph">
+            <in>render.cpp</in>
+          </df>
+          <df name="gui-to-bela">
+            <in>render.cpp</in>
+          </df>
+          <df name="mouse-track">
+            <in>render.cpp</in>
+          </df>
+          <df name="sequencer">
+            <in>render.cpp</in>
+          </df>
+          <df name="sliders">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Instruments">
+          <df name="airharp">
+            <in>Junction.cpp</in>
+            <in>MassSpringDamper.cpp</in>
+            <in>Plectrum.cpp</in>
+            <in>String.cpp</in>
+            <in>Waveguide.cpp</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="d-box">
+            <in>ADSR.cpp</in>
+            <in>Biquad.cpp</in>
+            <in>DboxOscillatorBank.cpp</in>
+            <in>DboxSensors.cpp</in>
+            <in>FeedbackOscillator.cpp</in>
+            <in>I2c_TouchKey.cpp</in>
+            <in>PinkNoise.cpp</in>
+            <in>StatusLED.cpp</in>
+            <in>audio_routines.S</in>
+            <in>logger.cpp</in>
+            <in>main.cpp</in>
+            <in>prio.cpp</in>
+            <in>render.cpp</in>
+            <in>sensors.cpp</in>
+            <in>spear_parser.cpp</in>
+          </df>
+        </df>
+        <df name="Multichannel">
+          <df name="circular-panning">
+            <in>render.cpp</in>
+          </df>
+          <df name="manual-panning">
+            <in>render.cpp</in>
+          </df>
+          <df name="multi-sinetone">
+            <in>render.cpp</in>
+          </df>
+          <df name="multichannel-player">
+            <in>render.cpp</in>
+          </df>
+          <df name="multitap-delay">
+            <in>render.cpp</in>
+          </df>
+          <df name="sidechain-ducker">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="PureData">
+          <df name="custom-render">
+            <df name="heavy">
+              <in>render.cpp</in>
+            </df>
+            <in>render.cpp</in>
+          </df>
+          <df name="custom-render-ultrasonic-distance-sensor">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Salt">
+          <df name="pink-trombone">
+            <in>SimplexNoise.cpp</in>
+            <in>leds.cpp</in>
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Sensors">
+          <df name="LDR">
+            <in>render.cpp</in>
+          </df>
+          <df name="MPR121">
+            <in>I2C_MPR121.cpp</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="rotary-encoder">
+            <in>render.cpp</in>
+          </df>
+          <df name="shift-register-out">
+            <in>render.cpp</in>
+          </df>
+          <df name="ultrasonic-distance-sensor">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="terminal-only">
+          <df name="filter-FIR">
+            <in>main.cpp</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="filter-IIR">
+            <in>main.cpp</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="samples">
+            <in>main.cpp</in>
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Trill">
+          <df name="bar-led">
+            <in>render.cpp</in>
+          </df>
+          <df name="bar-sound">
+            <in>render.cpp</in>
+          </df>
+          <df name="bar-visual">
+            <in>render.cpp</in>
+          </df>
+          <df name="craft-sound">
+            <in>render.cpp</in>
+          </df>
+          <df name="craft-visual">
+            <in>render.cpp</in>
+          </df>
+          <df name="custom-slider">
+            <in>render.cpp</in>
+          </df>
+          <df name="detect-all-devices">
+            <in>render.cpp</in>
+          </df>
+          <df name="flex-default">
+            <in>render.cpp</in>
+          </df>
+          <df name="flex-visual">
+            <in>render.cpp</in>
+          </df>
+          <df name="general-custom-address">
+            <in>render.cpp</in>
+          </df>
+          <df name="general-print">
+            <in>render.cpp</in>
+          </df>
+          <df name="general-settings">
+            <in>render.cpp</in>
+          </df>
+          <df name="general-visual">
+            <in>render.cpp</in>
+          </df>
+          <df name="hex-sound">
+            <in>render.cpp</in>
+          </df>
+          <df name="hex-visual">
+            <in>render.cpp</in>
+          </df>
+          <df name="multiple-devices">
+            <in>render.cpp</in>
+          </df>
+          <df name="ring-sound">
+            <in>render.cpp</in>
+          </df>
+          <df name="ring-visual">
+            <in>render.cpp</in>
+          </df>
+          <df name="square-multitouch">
+            <in>render.cpp</in>
+          </df>
+          <df name="square-sound">
+            <in>render.cpp</in>
+          </df>
+          <df name="square-visual">
+            <in>render.cpp</in>
+          </df>
+        </df>
+      </df>
+      <df name="IDE">
+        <df name="node_modules">
+          <df name="uws">
+            <df name="src">
+              <in>Epoll.cpp</in>
+              <in>Extensions.cpp</in>
+              <in>Group.cpp</in>
+              <in>HTTPSocket.cpp</in>
+              <in>Hub.cpp</in>
+              <in>Networking.cpp</in>
+              <in>Node.cpp</in>
+              <in>Socket.cpp</in>
+              <in>WebSocket.cpp</in>
+              <in>addon.cpp</in>
+            </df>
+          </df>
+        </df>
+        <df name="templates">
+          <df name="basic">
+            <in>render.cpp</in>
+          </df>
+          <df name="C">
+            <in>render.cpp</in>
+          </df>
+        </df>
+      </df>
+      <df name="libraries">
+        <df name="ADSR">
+          <in>ADSR.cpp</in>
+        </df>
+        <df name="AudioFile">
+          <in>AudioFileUtilities.cpp</in>
+        </df>
+        <df name="Biquad">
+          <in>Biquad.cpp</in>
+        </df>
+        <df name="Convolver">
+          <in>Convolver.cpp</in>
+        </df>
+        <df name="Debounce">
+          <in>BelaDebounce.cpp</in>
+          <in>Debounce.cpp</in>
+          <in>GpioDebounce.cpp</in>
+        </df>
+        <df name="DelayLine">
+          <in>DelayLine.cpp</in>
+        </df>
+        <df name="Eeprom">
+          <in>Eeprom.cpp</in>
+        </df>
+        <df name="Encoder">
+          <in>BelaEncoder.cpp</in>
+          <in>Encoder.cpp</in>
+        </df>
+        <df name="EnvelopeDetector">
+          <in>EnvelopeDetector.cpp</in>
+        </df>
+        <df name="Fft">
+          <in>Fft.cpp</in>
+        </df>
+        <df name="Gui">
+          <in>Gui.cpp</in>
+        </df>
+        <df name="GuiController">
+          <in>GuiController.cpp</in>
+          <in>GuiSlider.cpp</in>
+        </df>
+        <df name="Midi">
+          <in>Midi.cpp</in>
+          <in>Midi_c.cpp</in>
+        </df>
+        <df name="OnePole">
+          <in>OnePole.cpp</in>
+        </df>
+        <df name="Oscillator">
+          <in>Oscillator.cpp</in>
+        </df>
+        <df name="OscReceiver">
+          <in>OscReceiver.cpp</in>
+        </df>
+        <df name="OscSender">
+          <in>OscSender.cpp</in>
+        </df>
+        <df name="Pipe">
+          <in>Pipe.cpp</in>
+        </df>
+        <df name="PulseIn">
+          <in>PulseIn.cpp</in>
+        </df>
+        <df name="Scope">
+          <in>Scope.cpp</in>
+        </df>
+        <df name="Serial">
+          <in>Serial.cpp</in>
+        </df>
+        <df name="ShiftRegister">
+          <in>ShiftRegister.cpp</in>
+        </df>
+        <df name="Spi">
+          <in>Spi.cpp</in>
+        </df>
+        <df name="Trill">
+          <in>CentroidDetection.cpp</in>
+          <in>Trill.cpp</in>
+        </df>
+        <df name="UdpClient">
+          <in>UdpClient.cpp</in>
+        </df>
+        <df name="UdpServer">
+          <in>UdpServer.cpp</in>
+        </df>
+        <df name="WriteFile">
+          <in>WriteFile.cpp</in>
+          <in>WriteFile_c.cpp</in>
+        </df>
+      </df>
+      <df name="projects">
+        <df name="ace-bela">
+          <in>AceParameters.h</in>
+          <in>GammatoneFilter.h</in>
+          <in>HighPassFilter.h</in>
+          <in>HighShelfFilter.h</in>
+          <in>SlowAttackFilter.h</in>
+          <in>SlowDecayFilter.h</in>
+          <in>render.cpp</in>
+          <in>tests.h</in>
+        </df>
+      </df>
+      <df name="resources">
+        <df name="network">
+          <in>udp-client-sweep.c</in>
+          <in>udp-client.c</in>
+          <in>udp-server.c</in>
+        </df>
+        <df name="tools">
+          <df name="bela-cape-btn">
+            <in>bela-cape-btn.c</in>
+          </df>
+          <df name="board_detect">
+            <in>main.cpp</in>
+          </df>
+          <df name="mcasp-dump-tool">
+            <in>mcasp-dump-tool.c</in>
+          </df>
+        </df>
+      </df>
+      <df name="scripts">
+        <df name="hvresources">
+          <in>render.cpp</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>make PROJECT='ace-bela' stop projectclean Bela</buildCommand>
+          <cleanCommand>make PROJECT='ace-bela' coreclean projectclean</cleanCommand>
+          <executablePath>projects\ace-bela\ace-bela</executablePath>
+          <cTool>
+            <incDir>
+              <pElem>projects/ace-bela</pElem>
+            </incDir>
+          </cTool>
+          <ccTool>
+            <standard>11</standard>
+            <incDir>
+              <pElem>include</pElem>
+              <pElem>projects/ace-bela</pElem>
+              <pElem>.</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="IDE/node_modules/uws/src/Epoll.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/Extensions.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/Group.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/HTTPSocket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/Hub.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/Networking.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/Node.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/Socket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/WebSocket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/addon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IDE/templates/C/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IDE/templates/basic/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/AuxTaskNonRT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/AuxTaskRT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/AuxiliaryTasks.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/BelaContextFifo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/BelaContextSplitter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/DataFifo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/DigitalChannelManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/FormatConvert.S" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="core/GPIOcontrol.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/Gpio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/I2c_Codec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/I2c_MultiI2sCodec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/I2c_MultiTLVCodec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/I2c_MultiTdmCodec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/IirFilter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/JSON.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/JSONValue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/Mcasp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/MiscUtilities.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/Mmap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/OscillatorBank_routines.S" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="core/PRU.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/PruBinary.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/PruManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/RTAudio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/RTAudioCommandLine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/Spi_Codec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/WSServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/board_detect.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/default_libpd_render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/default_main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/math_runfast.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="examples/Analog/analog-input/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Analog/analog-output/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Analog/scope-analog/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/FFT-phase-vocoder/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/FFT-phase-vocoder/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/convolver/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/delay/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Audio/envelope-generator/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/filterbanks/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/record-audio/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/sample-loader/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/sample-piezo-trigger/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/sample-streamer-multi/SampleStream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/sample-streamer-multi/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/sample-streamer/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/telephone-filter/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/tremolo/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Capelets/audio-expander/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Capelets/multiplexer-display/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Capelets/multiplexer-spectrum/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Communication/MIDI/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Communication/OSC-Pipe/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Communication/OSC/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Communication/Serial/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Communication/Spi/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Communication/logging-sensors/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Csound/C++-libcsound-Control/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Csound/C++-libcsound-Loopback/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Csound/C++-libcsound-Sine/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Csound/C++-libcsound-Trigger/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Csound/C++-libcsound-gain/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Digital/bicolor-LEDs/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Digital/digital-input/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Digital/digital-output/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Digital/level-meter/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Digital/synchronous-gpio/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/7-segment-display/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/audio-capelet-test/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/bucket-brigade-chorus/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/cape-test/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Extras/cape-test/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/gpio-analog-loopback-test/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/measure-noisefloor/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/measure-noisefloor/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/oscillator-bank/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/pru-pwm/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Extras/salt-factory-taste/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/second-pru/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/stepper/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Extras/tank-wars/game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Extras/tank-wars/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Extras/tank-wars/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/tank-wars/vector_graphics.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/userdata/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Extras/userdata/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Fundamentals/minimal/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Fundamentals/passthrough/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Fundamentals/print/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Fundamentals/scope-advanced/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Fundamentals/scope/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Fundamentals/sinetone-optimized-bank/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Fundamentals/sinetone-optimized/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Fundamentals/sinetone/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Gui/ambient-ellipse/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Gui/bela-to-gui/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Gui/clock/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Gui/empty-project/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Gui/frequency-response/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Gui/graph/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Gui/gui-to-bela/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Gui/mouse-track/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Gui/sequencer/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Gui/sliders/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Instruments/airharp/Junction.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/airharp/MassSpringDamper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/airharp/Plectrum.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/airharp/String.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/airharp/Waveguide.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/airharp/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/ADSR.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/Biquad.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/DboxOscillatorBank.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/DboxSensors.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/FeedbackOscillator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/I2c_TouchKey.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/PinkNoise.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/StatusLED.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/audio_routines.S"
+            ex="false"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/logger.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/prio.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/sensors.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/spear_parser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Multichannel/circular-panning/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Multichannel/manual-panning/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Multichannel/multi-sinetone/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Multichannel/multichannel-player/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Multichannel/multitap-delay/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Multichannel/sidechain-ducker/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/PureData/custom-render-ultrasonic-distance-sensor/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/PureData/custom-render/heavy/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/PureData/custom-render/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Salt/pink-trombone/SimplexNoise.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Salt/pink-trombone/leds.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Salt/pink-trombone/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Sensors/LDR/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Sensors/MPR121/I2C_MPR121.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Sensors/MPR121/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Sensors/rotary-encoder/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Sensors/shift-register-out/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Sensors/ultrasonic-distance-sensor/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/bar-led/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Trill/bar-sound/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/bar-visual/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/craft-sound/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/craft-visual/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/custom-slider/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/detect-all-devices/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/flex-default/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/flex-visual/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/general-custom-address/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/general-print/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/general-settings/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/general-visual/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/hex-sound/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/hex-visual/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/multiple-devices/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/ring-sound/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/ring-visual/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/square-multitouch/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/square-sound/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/square-visual/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/terminal-only/filter-FIR/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/terminal-only/filter-FIR/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/terminal-only/filter-IIR/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/terminal-only/filter-IIR/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/terminal-only/samples/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/terminal-only/samples/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <folder path="0/projects/ace-bela">
+        <ccTool>
+          <incDir>
+            <pElem>projects/ace-bela</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="libraries/ADSR/ADSR.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/AudioFile/AudioFileUtilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/Biquad/Biquad.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Convolver/Convolver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Debounce/BelaDebounce.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/Debounce/Debounce.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Debounce/GpioDebounce.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/DelayLine/DelayLine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Eeprom/Eeprom.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Encoder/BelaEncoder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Encoder/Encoder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/EnvelopeDetector/EnvelopeDetector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/Fft/Fft.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Gui/Gui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/GuiController/GuiController.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/GuiController/GuiSlider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/Midi/Midi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Midi/Midi_c.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/OnePole/OnePole.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/OscReceiver/OscReceiver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/OscSender/OscSender.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Oscillator/Oscillator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/Pipe/Pipe.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/PulseIn/PulseIn.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Scope/Scope.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Serial/Serial.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/ShiftRegister/ShiftRegister.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/Spi/Spi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Trill/CentroidDetection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/Trill/Trill.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/UdpClient/UdpClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/UdpServer/UdpServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/WriteFile/WriteFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/WriteFile/WriteFile_c.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="projects/ace-bela/AceParameters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="projects/ace-bela/GammatoneFilter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="projects/ace-bela/HighPassFilter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="projects/ace-bela/HighShelfFilter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="projects/ace-bela/SlowAttackFilter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="projects/ace-bela/SlowDecayFilter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="projects/ace-bela/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="projects/ace-bela/tests.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="resources/network/udp-client-sweep.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="resources/network/udp-client.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="resources/network/udp-server.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="resources/tools/bela-cape-btn/bela-cape-btn.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="resources/tools/board_detect/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="resources/tools/mcasp-dump-tool/mcasp-dump-tool.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="scripts/hvresources/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Debug" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>make PROJECT='ace-bela' stop projectclean debug</buildCommand>
+          <cleanCommand>make PROJECT='ace-bela' coreclean projectclean</cleanCommand>
+          <executablePath>projects\ace-bela\ace-bela</executablePath>
+          <cTool>
+            <incDir>
+              <pElem>projects/ace-bela</pElem>
+            </incDir>
+          </cTool>
+          <ccTool>
+            <standard>11</standard>
+            <incDir>
+              <pElem>include</pElem>
+              <pElem>projects/ace-bela</pElem>
+              <pElem>.</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="IDE/node_modules/uws/src/Epoll.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/Extensions.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/Group.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/HTTPSocket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/Hub.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/Networking.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/Node.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/Socket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/WebSocket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="IDE/node_modules/uws/src/addon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IDE/templates/C/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IDE/templates/basic/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/AuxTaskNonRT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/AuxTaskRT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/AuxiliaryTasks.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/BelaContextFifo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/BelaContextSplitter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/DataFifo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/DigitalChannelManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/FormatConvert.S" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="core/GPIOcontrol.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/Gpio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/I2c_Codec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/I2c_MultiI2sCodec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/I2c_MultiTLVCodec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/I2c_MultiTdmCodec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/IirFilter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/JSON.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/JSONValue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/Mcasp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/MiscUtilities.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/Mmap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/OscillatorBank_routines.S" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="core/PRU.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/PruBinary.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/PruManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/RTAudio.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/RTAudioCommandLine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/Spi_Codec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/WSServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/board_detect.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/default_libpd_render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/default_main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core/math_runfast.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="examples/Analog/analog-input/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Analog/analog-output/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Analog/scope-analog/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/FFT-phase-vocoder/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/FFT-phase-vocoder/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/convolver/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/delay/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Audio/envelope-generator/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/filterbanks/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/record-audio/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/sample-loader/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/sample-piezo-trigger/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/sample-streamer-multi/SampleStream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/sample-streamer-multi/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/sample-streamer/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/telephone-filter/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Audio/tremolo/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Capelets/audio-expander/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Capelets/multiplexer-display/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Capelets/multiplexer-spectrum/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Communication/MIDI/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Communication/OSC-Pipe/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Communication/OSC/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Communication/Serial/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Communication/Spi/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Communication/logging-sensors/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Csound/C++-libcsound-Control/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Csound/C++-libcsound-Loopback/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Csound/C++-libcsound-Sine/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Csound/C++-libcsound-Trigger/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Csound/C++-libcsound-gain/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Digital/bicolor-LEDs/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Digital/digital-input/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Digital/digital-output/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Digital/level-meter/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Digital/synchronous-gpio/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/7-segment-display/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/audio-capelet-test/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/bucket-brigade-chorus/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/cape-test/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Extras/cape-test/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/gpio-analog-loopback-test/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/measure-noisefloor/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/measure-noisefloor/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/oscillator-bank/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/pru-pwm/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Extras/salt-factory-taste/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/second-pru/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/stepper/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Extras/tank-wars/game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Extras/tank-wars/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Extras/tank-wars/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/tank-wars/vector_graphics.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Extras/userdata/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Extras/userdata/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Fundamentals/minimal/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Fundamentals/passthrough/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Fundamentals/print/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Fundamentals/scope-advanced/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Fundamentals/scope/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Fundamentals/sinetone-optimized-bank/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Fundamentals/sinetone-optimized/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Fundamentals/sinetone/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Gui/ambient-ellipse/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Gui/bela-to-gui/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Gui/clock/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Gui/empty-project/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Gui/frequency-response/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Gui/graph/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Gui/gui-to-bela/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Gui/mouse-track/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Gui/sequencer/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Gui/sliders/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Instruments/airharp/Junction.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/airharp/MassSpringDamper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/airharp/Plectrum.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/airharp/String.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/airharp/Waveguide.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/airharp/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/ADSR.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/Biquad.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/DboxOscillatorBank.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/DboxSensors.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/FeedbackOscillator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/I2c_TouchKey.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/PinkNoise.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/StatusLED.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/audio_routines.S"
+            ex="false"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/logger.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/prio.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/sensors.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Instruments/d-box/spear_parser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Multichannel/circular-panning/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Multichannel/manual-panning/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Multichannel/multi-sinetone/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Multichannel/multichannel-player/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Multichannel/multitap-delay/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Multichannel/sidechain-ducker/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/PureData/custom-render-ultrasonic-distance-sensor/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/PureData/custom-render/heavy/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/PureData/custom-render/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Salt/pink-trombone/SimplexNoise.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Salt/pink-trombone/leds.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Salt/pink-trombone/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Sensors/LDR/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Sensors/MPR121/I2C_MPR121.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Sensors/MPR121/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Sensors/rotary-encoder/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Sensors/shift-register-out/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Sensors/ultrasonic-distance-sensor/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/bar-led/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Trill/bar-sound/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/bar-visual/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/craft-sound/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/craft-visual/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/custom-slider/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/detect-all-devices/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/flex-default/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/flex-visual/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/general-custom-address/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/general-print/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/general-settings/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/general-visual/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/hex-sound/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/hex-visual/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/multiple-devices/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/ring-sound/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/ring-visual/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/square-multitouch/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/square-sound/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/Trill/square-visual/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/terminal-only/filter-FIR/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/terminal-only/filter-FIR/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/terminal-only/filter-IIR/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/terminal-only/filter-IIR/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/terminal-only/samples/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="examples/terminal-only/samples/render.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <folder path="0/projects/ace-bela">
+        <ccTool>
+          <incDir>
+            <pElem>projects/ace-bela</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="libraries/ADSR/ADSR.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/AudioFile/AudioFileUtilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/Biquad/Biquad.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Convolver/Convolver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Debounce/BelaDebounce.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/Debounce/Debounce.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Debounce/GpioDebounce.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/DelayLine/DelayLine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Eeprom/Eeprom.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Encoder/BelaEncoder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Encoder/Encoder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/EnvelopeDetector/EnvelopeDetector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/Fft/Fft.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Gui/Gui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/GuiController/GuiController.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/GuiController/GuiSlider.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/Midi/Midi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Midi/Midi_c.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/OnePole/OnePole.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/OscReceiver/OscReceiver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/OscSender/OscSender.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Oscillator/Oscillator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/Pipe/Pipe.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/PulseIn/PulseIn.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Scope/Scope.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Serial/Serial.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/ShiftRegister/ShiftRegister.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/Spi/Spi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/Trill/CentroidDetection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libraries/Trill/Trill.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/UdpClient/UdpClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/UdpServer/UdpServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/WriteFile/WriteFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libraries/WriteFile/WriteFile_c.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="projects/ace-bela/AceParameters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="projects/ace-bela/GammatoneFilter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="projects/ace-bela/HighPassFilter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="projects/ace-bela/HighShelfFilter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="projects/ace-bela/SlowAttackFilter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="projects/ace-bela/SlowDecayFilter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="projects/ace-bela/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="projects/ace-bela/tests.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="resources/network/udp-client-sweep.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="resources/network/udp-client.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="resources/network/udp-server.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="resources/tools/bela-cape-btn/bela-cape-btn.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="resources/tools/board_detect/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="resources/tools/mcasp-dump-tool/mcasp-dump-tool.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="scripts/hvresources/render.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

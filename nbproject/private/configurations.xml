@@ -1,0 +1,1825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name=".settings">
+      </df>
+      <df name="core">
+        <in>AuxTaskNonRT.cpp</in>
+        <in>AuxTaskRT.cpp</in>
+        <in>AuxiliaryTasks.cpp</in>
+        <in>BelaContextFifo.cpp</in>
+        <in>BelaContextSplitter.cpp</in>
+        <in>DataFifo.cpp</in>
+        <in>DigitalChannelManager.cpp</in>
+        <in>FormatConvert.S</in>
+        <in>GPIOcontrol.cpp</in>
+        <in>Gpio.cpp</in>
+        <in>I2c_Codec.cpp</in>
+        <in>I2c_MultiI2sCodec.cpp</in>
+        <in>I2c_MultiTLVCodec.cpp</in>
+        <in>I2c_MultiTdmCodec.cpp</in>
+        <in>IirFilter.cpp</in>
+        <in>JSON.cpp</in>
+        <in>JSONValue.cpp</in>
+        <in>Mcasp.cpp</in>
+        <in>MiscUtilities.cpp</in>
+        <in>Mmap.cpp</in>
+        <in>OscillatorBank_routines.S</in>
+        <in>PRU.cpp</in>
+        <in>PruBinary.cpp</in>
+        <in>PruManager.cpp</in>
+        <in>RTAudio.cpp</in>
+        <in>RTAudioCommandLine.cpp</in>
+        <in>Spi_Codec.cpp</in>
+        <in>WSServer.cpp</in>
+        <in>board_detect.cpp</in>
+        <in>default_libpd_render.cpp</in>
+        <in>default_main.cpp</in>
+        <in>math_runfast.c</in>
+      </df>
+      <df name="examples">
+        <df name="Analog">
+          <df name="analog-input">
+            <in>render.cpp</in>
+          </df>
+          <df name="analog-output">
+            <in>render.cpp</in>
+          </df>
+          <df name="scope-analog">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Audio">
+          <df name="convolver">
+            <in>render.cpp</in>
+          </df>
+          <df name="delay">
+            <in>render.cpp</in>
+          </df>
+          <df name="envelope-generator">
+            <in>render.cpp</in>
+          </df>
+          <df name="FFT-phase-vocoder">
+            <in>SampleData.h</in>
+            <in>main.cpp</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="filterbanks">
+            <in>render.cpp</in>
+          </df>
+          <df name="record-audio">
+            <in>render.cpp</in>
+          </df>
+          <df name="sample-loader">
+            <in>render.cpp</in>
+          </df>
+          <df name="sample-piezo-trigger">
+            <in>render.cpp</in>
+          </df>
+          <df name="sample-streamer">
+            <in>render.cpp</in>
+          </df>
+          <df name="sample-streamer-multi">
+            <in>SampleData.h</in>
+            <in>SampleStream.cpp</in>
+            <in>SampleStream.h</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="telephone-filter">
+            <in>render.cpp</in>
+          </df>
+          <df name="tremolo">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Capelets">
+          <df name="audio-expander">
+            <in>render.cpp</in>
+          </df>
+          <df name="multiplexer-display">
+            <in>render.cpp</in>
+          </df>
+          <df name="multiplexer-spectrum">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Communication">
+          <df name="logging-sensors">
+            <in>render.cpp</in>
+          </df>
+          <df name="MIDI">
+            <in>render.cpp</in>
+          </df>
+          <df name="OSC">
+            <in>render.cpp</in>
+          </df>
+          <df name="OSC-Pipe">
+            <in>render.cpp</in>
+          </df>
+          <df name="Serial">
+            <in>render.cpp</in>
+          </df>
+          <df name="Spi">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Csound">
+          <df name="0-hello-world">
+          </df>
+          <df name="1-analog-in">
+          </df>
+          <df name="2-analog-out">
+          </df>
+          <df name="3-digital-in-out">
+          </df>
+          <df name="4-MIDI-in">
+          </df>
+          <df name="C++-libcsound-Control">
+            <in>render.cpp</in>
+          </df>
+          <df name="C++-libcsound-gain">
+            <in>render.cpp</in>
+          </df>
+          <df name="C++-libcsound-Loopback">
+            <in>render.cpp</in>
+          </df>
+          <df name="C++-libcsound-Sine">
+            <in>render.cpp</in>
+          </df>
+          <df name="C++-libcsound-Trigger">
+            <in>render.cpp</in>
+          </df>
+          <df name="COSMO_FX">
+          </df>
+        </df>
+        <df name="Digital">
+          <df name="bicolor-LEDs">
+            <in>render.cpp</in>
+          </df>
+          <df name="digital-input">
+            <in>render.cpp</in>
+          </df>
+          <df name="digital-output">
+            <in>render.cpp</in>
+          </df>
+          <df name="level-meter">
+            <in>render.cpp</in>
+          </df>
+          <df name="synchronous-gpio">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Extras">
+          <df name="7-segment-display">
+            <in>render.cpp</in>
+          </df>
+          <df name="audio-capelet-test">
+            <in>render.cpp</in>
+          </df>
+          <df name="bucket-brigade-chorus">
+            <in>render.cpp</in>
+          </df>
+          <df name="cape-test">
+            <in>main.cpp</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="gpio-analog-loopback-test">
+            <in>render.cpp</in>
+          </df>
+          <df name="measure-noisefloor">
+            <in>main.cpp</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="oscillator-bank">
+            <in>render.cpp</in>
+          </df>
+          <df name="pru-pwm">
+            <in>common_defs.h</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="salt-factory-taste">
+            <in>render.cpp</in>
+          </df>
+          <df name="second-pru">
+            <in>render.cpp</in>
+          </df>
+          <df name="stepper">
+            <in>render.cpp</in>
+          </df>
+          <df name="tank-wars">
+            <in>game.cpp</in>
+            <in>game.h</in>
+            <in>main.cpp</in>
+            <in>render.cpp</in>
+            <in>vector_graphics.cpp</in>
+            <in>vector_graphics.h</in>
+          </df>
+          <df name="userdata">
+            <in>main.cpp</in>
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Fundamentals">
+          <df name="minimal">
+            <in>render.cpp</in>
+          </df>
+          <df name="passthrough">
+            <in>render.cpp</in>
+          </df>
+          <df name="print">
+            <in>render.cpp</in>
+          </df>
+          <df name="scope">
+            <in>render.cpp</in>
+          </df>
+          <df name="scope-advanced">
+            <in>render.cpp</in>
+          </df>
+          <df name="sinetone">
+            <in>render.cpp</in>
+          </df>
+          <df name="sinetone-optimized">
+            <in>render.cpp</in>
+          </df>
+          <df name="sinetone-optimized-bank">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Gui">
+          <df name="ambient-ellipse">
+            <in>render.cpp</in>
+          </df>
+          <df name="bela-to-gui">
+            <in>render.cpp</in>
+          </df>
+          <df name="clock">
+            <in>render.cpp</in>
+          </df>
+          <df name="empty-project">
+            <in>render.cpp</in>
+          </df>
+          <df name="frequency-response">
+            <in>render.cpp</in>
+          </df>
+          <df name="graph">
+            <in>render.cpp</in>
+          </df>
+          <df name="gui-to-bela">
+            <in>render.cpp</in>
+          </df>
+          <df name="mouse-track">
+            <in>render.cpp</in>
+          </df>
+          <df name="sequencer">
+            <in>drums.h</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="sliders">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Instruments">
+          <df name="airharp">
+            <in>Junction.cpp</in>
+            <in>Junction.h</in>
+            <in>MassSpringDamper.cpp</in>
+            <in>MassSpringDamper.h</in>
+            <in>Plectrum.cpp</in>
+            <in>Plectrum.h</in>
+            <in>String.cpp</in>
+            <in>String.h</in>
+            <in>Waveguide.cpp</in>
+            <in>Waveguide.h</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="d-box">
+            <in>ADSR.cpp</in>
+            <in>ADSR.h</in>
+            <in>Biquad.cpp</in>
+            <in>Biquad.h</in>
+            <in>DBoxSynth.h</in>
+            <in>DboxOscillatorBank.cpp</in>
+            <in>DboxOscillatorBank.h</in>
+            <in>DboxSensors.cpp</in>
+            <in>DboxSensors.h</in>
+            <in>FIRfilter.h</in>
+            <in>FeedbackOscillator.cpp</in>
+            <in>FeedbackOscillator.h</in>
+            <in>I2c_TouchKey.cpp</in>
+            <in>I2c_TouchKey.h</in>
+            <in>PinkNoise.cpp</in>
+            <in>PinkNoise.h</in>
+            <in>StatusLED.cpp</in>
+            <in>StatusLED.h</in>
+            <in>audio_routines.S</in>
+            <in>config.h</in>
+            <in>logger.cpp</in>
+            <in>logger.h</in>
+            <in>main.cpp</in>
+            <in>prio.cpp</in>
+            <in>prio.h</in>
+            <in>render.cpp</in>
+            <in>sensors.cpp</in>
+            <in>sensors.h</in>
+            <in>spear_parser.cpp</in>
+            <in>spear_parser.h</in>
+          </df>
+          <df name="midi-poly-synth">
+          </df>
+          <df name="saber">
+          </df>
+        </df>
+        <df name="Multichannel">
+          <df name="circular-panning">
+            <in>render.cpp</in>
+          </df>
+          <df name="manual-panning">
+            <in>render.cpp</in>
+          </df>
+          <df name="multi-sinetone">
+            <in>render.cpp</in>
+          </df>
+          <df name="multichannel-player">
+            <in>render.cpp</in>
+          </df>
+          <df name="multitap-delay">
+            <in>render.cpp</in>
+          </df>
+          <df name="pd-multi-sample-player">
+          </df>
+          <df name="sc-multichannel-output">
+          </df>
+          <df name="sidechain-ducker">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="Pepper">
+          <df name="drum-machine">
+          </df>
+          <df name="getting-started">
+          </df>
+          <df name="granulator">
+          </df>
+          <df name="inharmonic-oscillator">
+          </df>
+          <df name="lfo-playground">
+          </df>
+          <df name="looper">
+          </df>
+          <df name="tape-delay">
+          </df>
+          <df name="wavetable-drums">
+          </df>
+        </df>
+        <df name="PureData">
+          <df name="accelerometer">
+          </df>
+          <df name="am-synthesis">
+          </df>
+          <df name="analog-in">
+          </df>
+          <df name="analog-out">
+          </df>
+          <df name="capacitive-sensing">
+          </df>
+          <df name="custom-render">
+            <df name="heavy">
+              <in>render.cpp</in>
+            </df>
+            <in>render.cpp</in>
+          </df>
+          <df name="custom-render-ultrasonic-distance-sensor">
+            <in>render.cpp</in>
+          </df>
+          <df name="delay-effect">
+          </df>
+          <df name="digital-advanced">
+          </df>
+          <df name="digital-in">
+          </df>
+          <df name="digital-out">
+          </df>
+          <df name="diy-pressure-sensors">
+          </df>
+          <df name="drum-synthesis">
+          </df>
+          <df name="envelope-trigger">
+          </df>
+          <df name="fm-synthesis">
+          </df>
+          <df name="gui-receive">
+          </df>
+          <df name="gui-send">
+          </df>
+          <df name="hello-midi">
+          </df>
+          <df name="hello-sound">
+          </df>
+          <df name="karplus-strong">
+          </df>
+          <df name="language-overview">
+          </df>
+          <df name="midi-cv-midi">
+          </df>
+          <df name="monophonic-synth">
+          </df>
+          <df name="multiplexer-capelet">
+          </df>
+          <df name="osc-receive">
+          </df>
+          <df name="osc-send">
+          </df>
+          <df name="oscilloscope">
+          </df>
+          <df name="pitch-tracking">
+          </df>
+          <df name="rubber-duckie">
+          </df>
+          <df name="sample-scrub">
+          </df>
+          <df name="samples-playback">
+          </df>
+          <df name="samples-record">
+          </df>
+          <df name="ultrasonic-distance-sensor">
+          </df>
+        </df>
+        <df name="Salt">
+          <df name="duo-wave">
+          </df>
+          <df name="lil-monsta">
+          </df>
+          <df name="mad-chorus">
+          </df>
+          <df name="pink-trombone">
+            <in>SimplexNoise.cpp</in>
+            <in>SimplexNoise.h</in>
+            <in>leds.cpp</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="salt-demo">
+          </df>
+          <df name="supercollider-quickstart">
+          </df>
+          <df name="tape-delay">
+          </df>
+        </df>
+        <df name="Sensors">
+          <df name="LDR">
+            <in>render.cpp</in>
+          </df>
+          <df name="MPR121">
+            <in>I2C_MPR121.cpp</in>
+            <in>I2C_MPR121.h</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="rotary-encoder">
+            <in>render.cpp</in>
+          </df>
+          <df name="shift-register-out">
+            <in>render.cpp</in>
+          </df>
+          <df name="ultrasonic-distance-sensor">
+            <in>render.cpp</in>
+          </df>
+        </df>
+        <df name="SuperCollider">
+          <df name="0-hello-sc">
+          </df>
+          <df name="1-digital-out">
+          </df>
+          <df name="2-digital-in">
+          </df>
+          <df name="3-analog-in">
+          </df>
+          <df name="4-analog-out">
+          </df>
+          <df name="5-sample-scrub">
+          </df>
+          <df name="6-pattern-control">
+          </df>
+          <df name="7-remote-control">
+          </df>
+          <df name="8-scope">
+          </df>
+          <df name="FM7">
+          </df>
+        </df>
+        <df name="terminal-only">
+          <df name="filter-FIR">
+            <in>FIRfilter.h</in>
+            <in>main.cpp</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="filter-IIR">
+            <in>main.cpp</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="samples">
+            <in>main.cpp</in>
+            <in>render.cpp</in>
+          </df>
+          <df name="vangelisiser">
+          </df>
+        </df>
+        <df name="Trill">
+          <df name="bar-led">
+            <in>render.cpp</in>
+          </df>
+          <df name="bar-pd">
+          </df>
+          <df name="bar-sound">
+            <in>render.cpp</in>
+          </df>
+          <df name="bar-visual">
+            <in>render.cpp</in>
+          </df>
+          <df name="craft-pd">
+          </df>
+          <df name="craft-sound">
+            <in>render.cpp</in>
+          </df>
+          <df name="craft-visual">
+            <in>render.cpp</in>
+          </df>
+          <df name="custom-slider">
+            <in>render.cpp</in>
+          </df>
+          <df name="detect-all-devices">
+            <in>render.cpp</in>
+          </df>
+          <df name="flex-default">
+            <in>render.cpp</in>
+          </df>
+          <df name="flex-visual">
+            <in>render.cpp</in>
+          </df>
+          <df name="general-custom-address">
+            <in>render.cpp</in>
+          </df>
+          <df name="general-pd">
+          </df>
+          <df name="general-print">
+            <in>render.cpp</in>
+          </df>
+          <df name="general-settings">
+            <in>render.cpp</in>
+          </df>
+          <df name="general-visual">
+            <in>render.cpp</in>
+          </df>
+          <df name="hex-pd">
+          </df>
+          <df name="hex-sound">
+            <in>render.cpp</in>
+          </df>
+          <df name="hex-visual">
+            <in>render.cpp</in>
+          </df>
+          <df name="multiple-devices">
+            <in>render.cpp</in>
+          </df>
+          <df name="ring-pd">
+          </df>
+          <df name="ring-sound">
+            <in>render.cpp</in>
+          </df>
+          <df name="ring-visual">
+            <in>render.cpp</in>
+          </df>
+          <df name="square-multitouch">
+            <in>render.cpp</in>
+          </df>
+          <df name="square-pd">
+          </df>
+          <df name="square-sound">
+            <in>render.cpp</in>
+          </df>
+          <df name="square-visual">
+            <in>render.cpp</in>
+          </df>
+        </df>
+      </df>
+      <df name="IDE">
+        <df name="dist">
+        </df>
+        <df name="frontend-dev">
+          <df name="scope-src">
+          </df>
+          <df name="scss">
+          </df>
+          <df name="src">
+            <df name="Models">
+            </df>
+            <df name="Views">
+            </df>
+          </df>
+        </df>
+        <df name="node_modules">
+          <df name=".bin">
+          </df>
+          <df name="abbrev">
+          </df>
+          <df name="accepts">
+          </df>
+          <df name="after">
+            <df name="test">
+            </df>
+          </df>
+          <df name="append-field">
+            <df name="lib">
+            </df>
+            <df name="test">
+            </df>
+          </df>
+          <df name="archiver">
+            <df name="lib">
+              <df name="plugins">
+              </df>
+            </df>
+            <df name="node_modules">
+              <df name="lodash">
+                <df name="fp">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="archiver-utils">
+            <df name="node_modules">
+              <df name="lodash">
+                <df name="fp">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="array-flatten">
+          </df>
+          <df name="arraybuffer.slice">
+            <df name="test">
+            </df>
+          </df>
+          <df name="async">
+            <df name="dist">
+            </df>
+            <df name="internal">
+            </df>
+            <df name="node_modules">
+              <df name="lodash">
+                <df name="fp">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="async-limiter">
+          </df>
+          <df name="await-lock">
+            <df name="build">
+            </df>
+          </df>
+          <df name="backo2">
+            <df name="test">
+            </df>
+          </df>
+          <df name="balanced-match">
+          </df>
+          <df name="base64-arraybuffer">
+            <df name="lib">
+            </df>
+          </df>
+          <df name="base64id">
+            <df name="lib">
+            </df>
+          </df>
+          <df name="better-assert">
+          </df>
+          <df name="binary">
+            <df name="example">
+            </df>
+            <df name="lib">
+            </df>
+            <df name="perf">
+            </df>
+            <df name="test">
+            </df>
+          </df>
+          <df name="bl">
+            <df name="test">
+            </df>
+          </df>
+          <df name="blob">
+            <df name=".idea">
+              <df name="inspectionProfiles">
+              </df>
+              <df name="markdown-navigator">
+              </df>
+            </df>
+            <df name="test">
+            </df>
+          </df>
+          <df name="bluebird">
+            <df name="js">
+              <df name="browser">
+              </df>
+              <df name="release">
+              </df>
+            </df>
+          </df>
+          <df name="body-parser">
+            <df name="lib">
+              <df name="types">
+              </df>
+            </df>
+          </df>
+          <df name="brace-expansion">
+          </df>
+          <df name="buffer-alloc">
+          </df>
+          <df name="buffer-alloc-unsafe">
+          </df>
+          <df name="buffer-crc32">
+          </df>
+          <df name="buffer-fill">
+          </df>
+          <df name="buffer-from">
+          </df>
+          <df name="buffers">
+            <df name="examples">
+            </df>
+            <df name="test">
+            </df>
+          </df>
+          <df name="busboy">
+            <df name="deps">
+              <df name="encoding">
+              </df>
+            </df>
+            <df name="lib">
+              <df name="types">
+              </df>
+            </df>
+            <df name="node_modules">
+              <df name="isarray">
+                <df name="build">
+                </df>
+              </df>
+              <df name="readable-stream">
+                <df name="lib">
+                </df>
+              </df>
+              <df name="string_decoder">
+              </df>
+            </df>
+            <df name="test">
+            </df>
+          </df>
+          <df name="bytes">
+          </df>
+          <df name="callsite">
+          </df>
+          <df name="chainsaw">
+            <df name="examples">
+            </df>
+            <df name="test">
+            </df>
+          </df>
+          <df name="component-bind">
+          </df>
+          <df name="component-emitter">
+          </df>
+          <df name="component-inherit">
+            <df name="test">
+            </df>
+          </df>
+          <df name="compress-commons">
+            <df name="lib">
+              <df name="archivers">
+                <df name="zip">
+                </df>
+              </df>
+              <df name="util">
+              </df>
+            </df>
+          </df>
+          <df name="concat-map">
+            <df name="example">
+            </df>
+            <df name="test">
+            </df>
+          </df>
+          <df name="concat-stream">
+          </df>
+          <df name="content-disposition">
+          </df>
+          <df name="content-type">
+          </df>
+          <df name="cookie">
+          </df>
+          <df name="cookie-signature">
+          </df>
+          <df name="core-util-is">
+            <df name="lib">
+            </df>
+          </df>
+          <df name="crc">
+            <df name="lib">
+            </df>
+          </df>
+          <df name="crc32-stream">
+            <df name="lib">
+            </df>
+          </df>
+          <df name="debug">
+            <df name="src">
+            </df>
+          </df>
+          <df name="decompress-zip">
+            <df name="bin">
+            </df>
+            <df name="lib">
+            </df>
+            <df name="node_modules">
+              <df name="isarray">
+                <df name="build">
+                </df>
+              </df>
+              <df name="readable-stream">
+                <df name="lib">
+                </df>
+              </df>
+              <df name="string_decoder">
+              </df>
+            </df>
+          </df>
+          <df name="depd">
+            <df name="lib">
+              <df name="browser">
+              </df>
+              <df name="compat">
+              </df>
+            </df>
+          </df>
+          <df name="destroy">
+          </df>
+          <df name="dicer">
+            <df name="bench">
+            </df>
+            <df name="lib">
+            </df>
+            <df name="node_modules">
+              <df name="isarray">
+                <df name="build">
+                </df>
+              </df>
+              <df name="readable-stream">
+                <df name="lib">
+                </df>
+              </df>
+              <df name="string_decoder">
+              </df>
+            </df>
+            <df name="test">
+              <df name="fixtures">
+                <df name="many">
+                </df>
+                <df name="many-noend">
+                </df>
+                <df name="many-wrongboundary">
+                </df>
+                <df name="nested">
+                </df>
+                <df name="nested-full">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="ee-first">
+          </df>
+          <df name="encodeurl">
+          </df>
+          <df name="end-of-stream">
+            <df name="node_modules">
+              <df name="once">
+              </df>
+            </df>
+          </df>
+          <df name="engine.io">
+            <df name="lib">
+              <df name="transports">
+              </df>
+            </df>
+            <df name="node_modules">
+              <df name="debug">
+                <df name="src">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="engine.io-client">
+            <df name="lib">
+              <df name="transports">
+              </df>
+            </df>
+            <df name="node_modules">
+              <df name="debug">
+                <df name="src">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="engine.io-parser">
+            <df name="lib">
+            </df>
+          </df>
+          <df name="escape-html">
+          </df>
+          <df name="etag">
+          </df>
+          <df name="express">
+            <df name="lib">
+              <df name="middleware">
+              </df>
+              <df name="router">
+              </df>
+            </df>
+            <df name="node_modules">
+              <df name="safe-buffer">
+              </df>
+            </df>
+          </df>
+          <df name="file-type">
+          </df>
+          <df name="finalhandler">
+          </df>
+          <df name="forwarded">
+          </df>
+          <df name="fresh">
+          </df>
+          <df name="fs-constants">
+          </df>
+          <df name="fs-extra">
+            <df name="docs">
+            </df>
+            <df name="lib">
+              <df name="copy">
+              </df>
+              <df name="copy-sync">
+              </df>
+              <df name="empty">
+              </df>
+              <df name="ensure">
+              </df>
+              <df name="json">
+              </df>
+              <df name="mkdirs">
+              </df>
+              <df name="move">
+              </df>
+              <df name="move-sync">
+              </df>
+              <df name="output">
+              </df>
+              <df name="remove">
+              </df>
+              <df name="util">
+              </df>
+            </df>
+          </df>
+          <df name="fs-extra-promise">
+            <df name="lib">
+            </df>
+          </df>
+          <df name="fs.realpath">
+          </df>
+          <df name="glob">
+          </df>
+          <df name="graceful-fs">
+          </df>
+          <df name="has-binary2">
+            <df name="node_modules">
+              <df name="isarray">
+              </df>
+            </df>
+          </df>
+          <df name="has-cors">
+          </df>
+          <df name="http-errors">
+          </df>
+          <df name="iconv-lite">
+            <df name="encodings">
+              <df name="tables">
+              </df>
+            </df>
+            <df name="lib">
+            </df>
+          </df>
+          <df name="indexof">
+          </df>
+          <df name="inflight">
+          </df>
+          <df name="inherits">
+          </df>
+          <df name="ipaddr.js">
+            <df name="lib">
+            </df>
+            <df name="src">
+            </df>
+            <df name="test">
+            </df>
+          </df>
+          <df name="isarray">
+          </df>
+          <df name="isbinaryfile">
+          </df>
+          <df name="jsonfile">
+          </df>
+          <df name="lazystream">
+            <df name="lib">
+            </df>
+            <df name="test">
+            </df>
+          </df>
+          <df name="media-typer">
+          </df>
+          <df name="merge-descriptors">
+          </df>
+          <df name="methods">
+          </df>
+          <df name="mime">
+            <df name=".github">
+            </df>
+            <df name="src">
+            </df>
+            <df name="types">
+            </df>
+          </df>
+          <df name="mime-db">
+          </df>
+          <df name="mime-types">
+          </df>
+          <df name="minimatch">
+          </df>
+          <df name="mkdirp">
+            <df name="bin">
+            </df>
+            <df name="examples">
+            </df>
+            <df name="node_modules">
+              <df name="minimist">
+                <df name="example">
+                </df>
+                <df name="test">
+                </df>
+              </df>
+            </df>
+            <df name="test">
+            </df>
+          </df>
+          <df name="mkpath">
+            <df name="test">
+            </df>
+          </df>
+          <df name="ms">
+          </df>
+          <df name="multer">
+            <df name="lib">
+            </df>
+            <df name="node_modules">
+              <df name="object-assign">
+              </df>
+            </df>
+            <df name="storage">
+            </df>
+          </df>
+          <df name="negotiator">
+            <df name="lib">
+            </df>
+          </df>
+          <df name="nopt">
+            <df name="bin">
+            </df>
+            <df name="examples">
+            </df>
+            <df name="lib">
+            </df>
+            <df name="test">
+            </df>
+          </df>
+          <df name="normalize-path">
+          </df>
+          <df name="object-component">
+            <df name="test">
+            </df>
+          </df>
+          <df name="on-finished">
+          </df>
+          <df name="once">
+          </df>
+          <df name="parseqs">
+          </df>
+          <df name="parseuri">
+          </df>
+          <df name="parseurl">
+          </df>
+          <df name="path-is-absolute">
+          </df>
+          <df name="path-to-regexp">
+          </df>
+          <df name="pidtree">
+            <df name="bin">
+            </df>
+            <df name="lib">
+            </df>
+          </df>
+          <df name="pify">
+          </df>
+          <df name="process-nextick-args">
+          </df>
+          <df name="proxy-addr">
+          </df>
+          <df name="q">
+          </df>
+          <df name="qs">
+            <df name="dist">
+            </df>
+            <df name="lib">
+            </df>
+            <df name="test">
+            </df>
+          </df>
+          <df name="range-parser">
+          </df>
+          <df name="raw-body">
+            <df name="node_modules">
+              <df name="depd">
+                <df name="lib">
+                  <df name="browser">
+                  </df>
+                  <df name="compat">
+                  </df>
+                </df>
+              </df>
+              <df name="http-errors">
+              </df>
+              <df name="setprototypeof">
+              </df>
+            </df>
+          </df>
+          <df name="read-chunk">
+          </df>
+          <df name="readable-stream">
+            <df name="doc">
+              <df name="wg-meetings">
+              </df>
+            </df>
+            <df name="lib">
+              <df name="internal">
+                <df name="streams">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="remove-trailing-separator">
+          </df>
+          <df name="safe-buffer">
+          </df>
+          <df name="send">
+            <df name="node_modules">
+              <df name=".bin">
+              </df>
+              <df name="mime">
+                <df name="build">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="serve-static">
+          </df>
+          <df name="setprototypeof">
+          </df>
+          <df name="socket.io">
+            <df name="lib">
+            </df>
+            <df name="node_modules">
+              <df name="object-assign">
+              </df>
+            </df>
+          </df>
+          <df name="socket.io-adapter">
+          </df>
+          <df name="socket.io-client">
+            <df name="dist">
+            </df>
+            <df name="lib">
+            </df>
+          </df>
+          <df name="socket.io-parser">
+            <df name="node_modules">
+              <df name="debug">
+                <df name="src">
+                </df>
+              </df>
+              <df name="isarray">
+              </df>
+            </df>
+          </df>
+          <df name="statuses">
+          </df>
+          <df name="streamsearch">
+            <df name="lib">
+            </df>
+          </df>
+          <df name="string_decoder">
+            <df name="lib">
+            </df>
+          </df>
+          <df name="tar-stream">
+          </df>
+          <df name="to-array">
+          </df>
+          <df name="to-buffer">
+          </df>
+          <df name="touch">
+            <df name="bin">
+            </df>
+            <df name="node_modules">
+              <df name=".bin">
+              </df>
+              <df name="nopt">
+                <df name="bin">
+                </df>
+                <df name="examples">
+                </df>
+                <df name="lib">
+                </df>
+              </df>
+            </df>
+            <df name="test">
+            </df>
+          </df>
+          <df name="traverse">
+            <df name="examples">
+            </df>
+            <df name="test">
+            </df>
+          </df>
+          <df name="type-is">
+          </df>
+          <df name="typedarray">
+            <df name="example">
+            </df>
+            <df name="test">
+              <df name="server">
+              </df>
+            </df>
+          </df>
+          <df name="ultron">
+          </df>
+          <df name="unpipe">
+          </df>
+          <df name="util-deprecate">
+          </df>
+          <df name="utils-merge">
+          </df>
+          <df name="uws">
+            <df name="build">
+              <df name="Release">
+                <df name=".deps">
+                  <df name="Release">
+                    <df name="obj.target">
+                      <df name="uws">
+                        <df name="src">
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="obj.target">
+                  <df name="uws">
+                    <df name="src">
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>Asio.h</in>
+              <in>Backend.h</in>
+              <in>Epoll.cpp</in>
+              <in>Epoll.h</in>
+              <in>Extensions.cpp</in>
+              <in>Extensions.h</in>
+              <in>Group.cpp</in>
+              <in>Group.h</in>
+              <in>HTTPSocket.cpp</in>
+              <in>HTTPSocket.h</in>
+              <in>Hub.cpp</in>
+              <in>Hub.h</in>
+              <in>Libuv.h</in>
+              <in>Networking.cpp</in>
+              <in>Networking.h</in>
+              <in>Node.cpp</in>
+              <in>Node.h</in>
+              <in>Socket.cpp</in>
+              <in>Socket.h</in>
+              <in>WebSocket.cpp</in>
+              <in>WebSocket.h</in>
+              <in>WebSocketProtocol.h</in>
+              <in>addon.cpp</in>
+              <in>addon.h</in>
+              <in>http.h</in>
+              <in>uWS.h</in>
+            </df>
+          </df>
+          <df name="vary">
+          </df>
+          <df name="wrappy">
+          </df>
+          <df name="ws">
+            <df name="lib">
+            </df>
+          </df>
+          <df name="xmlhttprequest-ssl">
+            <df name="example">
+            </df>
+            <df name="lib">
+            </df>
+            <df name="tests">
+            </df>
+          </df>
+          <df name="xtend">
+          </df>
+          <df name="yeast">
+          </df>
+          <df name="zip-stream">
+            <df name="node_modules">
+              <df name="lodash">
+                <df name="fp">
+                </df>
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="public">
+          <df name="belaDiagram">
+            <df name="css">
+            </df>
+            <df name="images">
+            </df>
+            <df name="json">
+            </df>
+          </df>
+          <df name="css">
+          </df>
+          <df name="fonts">
+          </df>
+          <df name="gui">
+            <df name="css">
+            </df>
+            <df name="js">
+            </df>
+            <df name="p5-sketches">
+            </df>
+          </df>
+          <df name="images">
+            <df name="icons">
+            </df>
+          </df>
+          <df name="js">
+            <df name="ace">
+              <df name="snippets">
+              </df>
+            </df>
+            <df name="diagram">
+            </df>
+          </df>
+          <df name="scope">
+            <df name="js">
+            </df>
+          </df>
+        </df>
+        <df name="src">
+        </df>
+        <df name="templates">
+          <df name="basic">
+            <in>render.cpp</in>
+          </df>
+          <df name="C">
+            <in>render.cpp</in>
+          </df>
+          <df name="CS">
+          </df>
+          <df name="PD">
+          </df>
+          <df name="SC">
+          </df>
+        </df>
+        <df name="test">
+        </df>
+      </df>
+      <df name="include">
+        <df name="legacy">
+          <df name="ne10">
+            <in>NE10.h</in>
+          </df>
+          <in>I2c_TouchKey.h</in>
+          <in>Midi.h</in>
+          <in>OSCClient.h</in>
+          <in>OSCReceiver.h</in>
+          <in>OSCSender.h</in>
+          <in>OSCServer.h</in>
+          <in>PulseIn.h</in>
+          <in>Scope.h</in>
+          <in>UdpClient.h</in>
+          <in>UdpServer.h</in>
+          <in>WriteFile.h</in>
+          <in>math_neon.h</in>
+          <in>sndfile.h</in>
+        </df>
+        <in>AudioCodec.h</in>
+        <in>AuxTaskNonRT.h</in>
+        <in>AuxTaskRT.h</in>
+        <in>Bela.h</in>
+        <in>BelaContextFifo.h</in>
+        <in>BelaContextSplitter.h</in>
+        <in>DataBuffer.h</in>
+        <in>DataFifo.h</in>
+        <in>DigitalChannelManager.h</in>
+        <in>DigitalToMessage.h</in>
+        <in>GPIOcontrol.h</in>
+        <in>Gpio.h</in>
+        <in>I2c.h</in>
+        <in>I2c_Codec.h</in>
+        <in>I2c_MultiI2sCodec.h</in>
+        <in>I2c_MultiTLVCodec.h</in>
+        <in>I2c_MultiTdmCodec.h</in>
+        <in>IirFilter.h</in>
+        <in>JSON.h</in>
+        <in>JSONValue.h</in>
+        <in>Mcasp.h</in>
+        <in>MiscUtilities.h</in>
+        <in>Mmap.h</in>
+        <in>PRU.h</in>
+        <in>PruArmCommon.h</in>
+        <in>PruBinary.h</in>
+        <in>PruManager.h</in>
+        <in>Spi_Codec.h</in>
+        <in>Utilities.h</in>
+        <in>WSServer.h</in>
+        <in>bela_hw_settings.h</in>
+        <in>bela_sw_settings.h</in>
+        <in>board_detect.h</in>
+        <in>digital_gpio_mapping.h</in>
+        <in>stats.hpp</in>
+        <in>xenomai_wraps.h</in>
+      </df>
+      <df name="libraries">
+        <df name="ADSR">
+          <in>ADSR.cpp</in>
+          <in>ADSR.h</in>
+        </df>
+        <df name="AudioFile">
+          <in>AudioFile.h</in>
+          <in>AudioFileUtilities.cpp</in>
+        </df>
+        <df name="Biquad">
+          <in>Biquad.cpp</in>
+          <in>Biquad.h</in>
+          <in>QuadBiquad.h</in>
+        </df>
+        <df name="Convolver">
+          <in>Convolver.cpp</in>
+          <in>Convolver.h</in>
+        </df>
+        <df name="csound">
+          <in>csound.h</in>
+        </df>
+        <df name="Debounce">
+          <in>BelaDebounce.cpp</in>
+          <in>BelaDebounce.h</in>
+          <in>Debounce.cpp</in>
+          <in>Debounce.h</in>
+          <in>GpioDebounce.cpp</in>
+          <in>GpioDebounce.h</in>
+        </df>
+        <df name="DelayLine">
+          <in>DelayLine.cpp</in>
+          <in>DelayLine.h</in>
+        </df>
+        <df name="Eeprom">
+          <in>Eeprom.cpp</in>
+          <in>Eeprom.h</in>
+        </df>
+        <df name="Encoder">
+          <in>BelaEncoder.cpp</in>
+          <in>BelaEncoder.h</in>
+          <in>Encoder.cpp</in>
+          <in>Encoder.h</in>
+        </df>
+        <df name="EnvelopeDetector">
+          <in>EnvelopeDetector.cpp</in>
+          <in>EnvelopeDetector.h</in>
+        </df>
+        <df name="Fft">
+          <in>Fft.cpp</in>
+          <in>Fft.h</in>
+        </df>
+        <df name="Gui">
+          <in>Gui.cpp</in>
+          <in>Gui.h</in>
+        </df>
+        <df name="GuiController">
+          <in>GuiController.cpp</in>
+          <in>GuiController.h</in>
+          <in>GuiSlider.cpp</in>
+          <in>GuiSlider.h</in>
+        </df>
+        <df name="math_neon">
+          <in>math_neon.h</in>
+        </df>
+        <df name="Midi">
+          <in>Midi.cpp</in>
+          <in>Midi.h</in>
+          <in>Midi_c.cpp</in>
+          <in>Midi_c.h</in>
+        </df>
+        <df name="ne10">
+          <in>NE10.h</in>
+        </df>
+        <df name="OnePole">
+          <in>OnePole.cpp</in>
+          <in>OnePole.h</in>
+        </df>
+        <df name="Oscillator">
+          <in>Oscillator.cpp</in>
+          <in>Oscillator.h</in>
+        </df>
+        <df name="OscillatorBank">
+          <in>OscillatorBank.h</in>
+        </df>
+        <df name="OscReceiver">
+          <in>OscReceiver.cpp</in>
+          <in>OscReceiver.h</in>
+        </df>
+        <df name="OscSender">
+          <in>OscSender.cpp</in>
+          <in>OscSender.h</in>
+        </df>
+        <df name="Pipe">
+          <in>Pipe.cpp</in>
+          <in>Pipe.h</in>
+        </df>
+        <df name="PulseIn">
+          <in>PulseIn.cpp</in>
+          <in>PulseIn.h</in>
+        </df>
+        <df name="Scope">
+          <in>Scope.cpp</in>
+          <in>Scope.h</in>
+        </df>
+        <df name="Serial">
+          <in>Serial.cpp</in>
+          <in>Serial.h</in>
+        </df>
+        <df name="ShiftRegister">
+          <in>ShiftRegister.cpp</in>
+          <in>ShiftRegister.h</in>
+        </df>
+        <df name="sndfile">
+          <in>sndfile.h</in>
+        </df>
+        <df name="Spi">
+          <in>Spi.cpp</in>
+          <in>Spi.h</in>
+        </df>
+        <df name="Trill">
+          <in>CentroidDetection.cpp</in>
+          <in>CentroidDetection.h</in>
+          <in>Trill.cpp</in>
+          <in>Trill.h</in>
+          <in>calculateCentroids.h</in>
+          <in>processCentroids.h</in>
+        </df>
+        <df name="UdpClient">
+          <in>UdpClient.cpp</in>
+          <in>UdpClient.h</in>
+        </df>
+        <df name="UdpServer">
+          <in>UdpServer.cpp</in>
+          <in>UdpServer.h</in>
+        </df>
+        <df name="WriteFile">
+          <in>WriteFile.cpp</in>
+          <in>WriteFile.h</in>
+          <in>WriteFile_c.cpp</in>
+          <in>WriteFile_c.h</in>
+        </df>
+      </df>
+      <df name="projects">
+        <df name="ace-bela">
+          <df name="build">
+            <in>render.s</in>
+          </df>
+          <in>AceParameters.h</in>
+          <in>GammatoneFilter.h</in>
+          <in>HighPassFilter.h</in>
+          <in>HighShelfFilter.h</in>
+          <in>SlowAttackFilter.h</in>
+          <in>SlowDecayFilter.h</in>
+          <in>functions.S</in>
+          <in>render.cpp</in>
+          <in>tests.h</in>
+        </df>
+      </df>
+      <df name="pru">
+      </df>
+      <df name="resources">
+        <df name="bin">
+        </df>
+        <df name="ctag">
+        </df>
+        <df name="network">
+          <in>udp-client-sweep.c</in>
+          <in>udp-client.c</in>
+          <in>udp-server.c</in>
+        </df>
+        <df name="osc">
+          <df name="node_modules">
+            <df name="binpack">
+              <df name="tests">
+              </df>
+            </df>
+            <df name="osc-min">
+              <df name="examples">
+              </df>
+              <df name="lib">
+              </df>
+              <df name="test">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="salt">
+          <df name="rootfs">
+            <df name="lib">
+              <df name="systemd">
+                <df name="system">
+                </df>
+              </df>
+            </df>
+            <df name="opt">
+              <df name="Bela">
+                <df name="local">
+                </df>
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="stretch">
+          <df name="deb">
+          </df>
+          <df name="rootfs">
+            <df name="lib">
+              <df name="systemd">
+                <df name="system">
+                </df>
+              </df>
+            </df>
+            <df name="opt">
+              <df name="Bela">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="tests">
+        </df>
+        <df name="tools">
+          <df name="bela-cape-btn">
+            <in>bela-cape-btn.c</in>
+          </df>
+          <df name="board_detect">
+            <in>main.cpp</in>
+          </df>
+          <df name="mcasp-dump-tool">
+            <in>mcasp-dump-tool.c</in>
+          </df>
+        </df>
+        <df name="wheezy">
+          <df name="deb">
+          </df>
+          <df name="dtb">
+          </df>
+          <df name="include">
+            <in>prussdrv.h</in>
+          </df>
+          <df name="sh">
+          </df>
+        </df>
+      </df>
+      <df name="scripts">
+        <df name="hvresources">
+          <in>render.cpp</in>
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="0">
+      <toolsSet>
+        <developmentServer>root@bela.local:22</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_signals>
+        </gdb_signals>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>./projects/ace-bela</rundir>
+        <buildfirst>true</buildfirst>
+        <console-type>2</console-type>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Debug" type="0">
+      <toolsSet>
+        <developmentServer>root@bela.local:22</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_signals>
+        </gdb_signals>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>./projects/ace-bela</rundir>
+        <buildfirst>true</buildfirst>
+        <console-type>2</console-type>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
