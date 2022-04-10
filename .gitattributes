@@ -1,0 +1,4 @@
+# Make sure scripts always have the Linux style line endings, otherwise they
+# may fail to execute.
+*.sh text eol=lf
+lib.metadata text eol=lf
